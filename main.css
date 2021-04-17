@@ -1,0 +1,57 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    color: white;
+    background: gray;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+    overflow: hidden;
+}
+h1{
+    text-align: center;
+}
+#notepad{
+    position: relative;
+    bottom: 7rem;
+    width: 70rem;
+    height: 32rem;
+    padding: 1rem;
+    font-size: 1.5rem;
+    color: #000000;
+    outline: none;
+    background-image: url('./paper.jpg');
+    background-position: center;
+    background-size: cover;
+}
+.buttons{
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    position: relative;
+    right:39.1rem;
+    top: 3rem;
+}
+
+.shredder{
+margin-bottom: 2rem;
+}
+.shredder, .download{
+    width: 55px;
+    height: 54px;
+    margin-left: 10px;
+}
+.shredder, .download:hover{
+cursor: pointer;
+}
+.shredderGIF{
+    position: absolute;
+    width: 15rem;
+    bottom: 7rem;
+    right: 32rem;
+    display: none;
+}

@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>My-Notepad</title>
+    <link rel="stylesheet" href="main.css">
+</head>
+<body>
+    <h1>NOTEPAD</h1>
+    
+    <div class="buttons">
+        <img class="shredder" src="./shredder.svg" alt="clear all">
+        <img class="download"  src="./download.png" alt="download">
+    </div>
+    
+    <div class="textfield">
+        <textarea name="notepad" id="notepad"  oninput="saveText()" placeholder="Write notes & come back later your notes will be right here."></textarea>    
+    </div>
+        <img src="https://media.giphy.com/media/LOQTSHm21KsQHExi4b/source.gif" class="shredderGIF">        
+    
+    <div id="test"></div>
+    </body>
+<script src="main.js"></script>
+</html>
